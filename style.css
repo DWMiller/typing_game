@@ -1,0 +1,43 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: black;
+  color: white;
+}
+
+canvas,
+#side {
+  position: absolute;
+}
+
+canvas {
+  top: 1em;
+  left: 1em;
+  /* margin: 1em 0 0 1em; */
+  /* float: left; */
+}
+
+#side {
+  left: 800px;
+  max-width: 300px;
+  padding-top: 1em;
+  padding-left: 2em;
+}
+
+#game-input {
+  /* top: 800px; */
+  /* left: 400px; */
+  font-size: x-large;
+  margin: 1em;
+  text-align: center;
+}
+
+#game-details > div {
+  padding-bottom: 0.5em;
+}
+
+canvas {
+  z-index: 1;
+  border: 1px dotted red;
+}
